@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 960px;
+    margin: auto;
+}
+#right-side{
+    float: right;
+}
+#main-content {
+    float: left;
+}
+#login {
+    width: 500px;
+    height: auto;
+    margin: 12.5% auto;
+    border: 5px solid #dddddd;
+}
+#login:after,#login:before,
+#property:after,#property:before
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#login form {
+    background-color: #eeeeee;
+    padding: 25px;
+}
+#login form label,
+#login form input[type='text'],
+#login form input[type='password'],
+#login form button
+{
+    display: block;
+    width: 100%;
+}
+
+#login form input[type='submit'] {
+    width: 135px;
+    height: 35px;
+    margin-top: 10px;
+}
+#login form input[type='text'],
+#login form input[type='password'] {
+    height: 35px;
+    border: 0px;
+}
+
+/*************************************************/
+
+#property {
+    width: 748px;
+    padding: 20px;
+    background-color: #ddcfa0;
+    border: 5px solid #eeeeee;
+    margin: 25px auto;
+}
+
+#property form label,
+#property form input
+{
+    display: block;
+    padding: 5px;
+}
+
+#property form input[type='text'] {
+    width: 98%;
+}
+
+p.error{
+    color: #FE8A59;
+}
+
+#property table{
+    width: 100%;
+    padding: 0px;
+}
+#property table tr td{
+    padding: 5px;
+    background-color: #4288CE;
+}
+#property table tr:first-child {
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+#property table tr:first-child td {
+    background-color: #FE8A59;
+}
+.pagination {
+    list-style: none;
+}
+.pagination li {
+    float: left; margin: 10px 10px 10px 0px;
+}
