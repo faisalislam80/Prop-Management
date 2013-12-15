@@ -1,0 +1,23 @@
+body{
+    background-color: #EEEEEE;
+}
+#header{
+    height: 50px !important;
+    background-color: #FE8A59;
+    border-bottom: 1px solid #FE8A59;
+}
+#left{
+    padding: 25px 0;
+    min-height: 620px;
+    border-right: 1px solid #dddddd;
+}
+#right{
+
+}
+
+form input {
+    width: 90%;
+}
+p.error{
+    color: #ee5f5b;
+}
